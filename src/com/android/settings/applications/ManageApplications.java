@@ -182,7 +182,9 @@ public class ManageApplications extends Fragment implements
 
     public static final int APP_INSTALL_LOCATION = MENU_OPTIONS_BASE + 9;
 
-    public static final int SHOW_PROTECTED_APPS = MENU_OPTIONS_BASE + 10;
+    public static final int SHOW_PROTECTED_APPS = MENU_OPTIONS_BASE + 11;
+
+    public static final int APP_INSTALL_LOCATION = MENU_OPTIONS_BASE + 12;
 
     // sort order
     private int mSortOrder = SORT_ORDER_ALPHA;
@@ -1112,7 +1114,12 @@ public class ManageApplications extends Fragment implements
                 .setShowAsAction(MenuItem.SHOW_AS_ACTION_NEVER);
         menu.add(0, APP_INSTALL_LOCATION, 4, R.string.app_install_location_title)
                 .setShowAsAction(MenuItem.SHOW_AS_ACTION_NEVER);
-        menu.add(0, SHOW_PROTECTED_APPS, 5, R.string.protected_apps)
+
+        if (!Utils.isRestrictedProfile(getActivity())) {
+            menu.add(0, SHOW_PROTECTED_APPS, 5, R.string.protected_apps)
+                    .setShowAsAction(MenuItem.SHOW_AS_ACTION_NEVER);
+        }
+        menu.add(0, APP_INSTALL_LOCATION, 4, R.string.app_install_location_title)
                 .setShowAsAction(MenuItem.SHOW_AS_ACTION_NEVER);
         updateOptionsMenu();
     }
@@ -1280,6 +1287,8 @@ public class ManageApplications extends Fragment implements
             //Launch Protected Apps Fragment
             Intent intent = new Intent(getActivity(), ProtectedAppsActivity.class);
             startActivity(intent);
+        } else if (menuId == APP_INSTALL_LOCATION) {
+            showAppInstallLocationSettingDlg();
         } else {
             // Handle the home button
             return false;
