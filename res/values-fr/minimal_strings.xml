@@ -63,13 +63,13 @@
     <string name="keywords_overview_show_searchbar">Permet de désactiver activer afficher cacher la barre de recherche dans le multitâche</string>
 
     <!-- Color Picker -->
-    <string name="dialog_color_picker">Pipette à couleurs</string>
+    <string name="dialog_color_picker">Pipette de couleurs</string>
     <string name="press_color_to_apply">Appuyez sur la couleur ci-dessous pour appliquer</string>
     <string name="arrow_right">→</string>
     <string name="arrow_down">↓</string>
     <string name="hex">Hex:</string>
     <string name="hex_hint">#ff000000</string>
-    <string name="set">Set</string>
+    <string name="set">Fixé</string>
     <string name="color_default">Par défaut</string>
 
     <!-- Status bar | Clock -->
@@ -80,10 +80,10 @@
     <string name="clock_enabled">Activé</string>
     <string name="clock_disabled">Désactivé</string>
     <string name="clock_color_title">Couleurs</string>
-    <string name="status_bar_clock_style_reset">Réinitialiser couleurs</string>
+    <string name="status_bar_clock_style_reset">Réinitialiser les couleurs</string>
     <string name="status_bar_show_clock_title">Afficher l\'horloge et la date</string>
     <string name="status_bar_am_pm_title">AM/PM</string>
-    <string name="status_bar_am_pm_info">Horlge 24 heures activé</string>
+    <string name="status_bar_am_pm_info">Horloge 24 heures activé</string>
     <string name="enable_clock_weekday">Jour de la semaine</string>
     <string name="enable_clock_weekday_summary">Abrégé le jour de la semaine avant l\'heure</string>
     <string name="right_clock">Horloge à droite</string>
@@ -94,7 +94,7 @@
     <string name="clock_date_display_summary">Afficher la date personnalisé avant l\'horloge</string>
     <string name="clock_date_style">Style de date</string>
     <string name="clock_date_format">Format de la date</string>
-    <string name="clock_date_string_edittext_title">Doit être dans le format dd/MM/yy</string>
+    <string name="clock_date_string_edittext_title">Doit être dans le format MM/dd/yy</string>
     <string name="clock_date_string_edittext_summary">Entrer string</string>
     <string name="am_pm_clock_normal">Normal taille de police</string>
     <string name="am_pm_clock_small">Petite taille de police</string>
@@ -105,7 +105,7 @@
     <string name="clock_date_style_normal">Normal</string>
     <string name="clock_date_style_lowercase">Minuscule</string>
     <string name="clock_date_style_uppercase">Majuscule</string>
-    <string name="clock_date_format_custom">Format java personnalisée</string>
+    <string name="clock_date_format_custom">Format de date personnalisée</string>
     <string name="status_bar_clock_style_reset_message">Réinitialiser la couleur de l\'horloge ?</string>
 
     <!-- SuperSU header name - the app hides itself from launcher based on this resource name being present in com.android.settings -->
@@ -117,7 +117,7 @@
     <string name="qs_expanded_desktop_tile">Bureau étendu</string>
     <string name="qs_notifications_tile">Notifications</string>
     <string name="qs_screen_off_tile">Eteindre l\'écran</string>
-    <string name="qs_screenshot_tile">Screenshot</string>
+    <string name="qs_screenshot_tile">Capture d'écran</string>
     <string name="qs_screenrecord_tile">Enregistrer l\'écran</string>
     <string name="qs_sync_tile">Sync</string>
     <string name="qs_tile_reboot">Redémarrer</string>
@@ -171,8 +171,8 @@
     <string name="doze_overwrite_value_title">Écraser la valeur</string>
     <string name="doze_overwrite_value_summary">Permettre l\'écrasement des valeurs par défauts avec la config utilisateur</string>
 
-    <string name="doze_list_mode_title">Mode doze</string>
-    <string name="doze_list_mode_summary">Option pour configurerer le mode doze</string>
+    <string name="doze_list_mode_title">Mode Doze</string>
+    <string name="doze_list_mode_summary">Option pour configurerer le mode Doze</string>
 
     <string name="doze_pulse_title">Réglages de l\'heure</string>
     <string name="doze_pulse_duration_in_title">Se fondre dans</string>
@@ -184,19 +184,19 @@
     <string name="doze_pulse_duration_out_title">Disparaître</string>
     <string name="doze_pulse_duration_out_summary"></string>
 
-    <string name="doze_pulse_on_notifications_title">Pulse doze</string>
-    <string name="doze_pulse_on_notifications_summary">Pulse display on pending notifications</string>
+    <string name="doze_pulse_on_notifications_title">Impulsion de Doze</string>
+    <string name="doze_pulse_on_notifications_summary">Affichage de l'\impulsion sur les notifications en attente</string>
 
-    <string name="doze_shake_title">Pulse display on pending notifications</string>
-    <string name="doze_shake_mode_title">Mode shake</string>
-    <string name="doze_shake_mode_summary">Utiliser la valeur de capteur de shake pour déclencher l\'activation</string>
-    <string name="doze_shake_mode_test_summary">Do you want to test shake sensor?</string>
+    <string name="doze_shake_title">Affichage de l'\impulsion sur les notifications en attente</string>
+    <string name="doze_shake_mode_title">Mode Secousse</string>
+    <string name="doze_shake_mode_summary">Utiliser la valeur de capteur de secousse pour déclencher l\'activation</string>
+    <string name="doze_shake_mode_test_summary">Voulez-vous tester le capteur de secousse ?</string>
     <string name="doze_shake_mode_test_result">Appliquer la valeur actuelle ?</string>
-    <string name="doze_shake_test">Shake ton terminal maintenant</string>
-    <string name="doze_shake_it">Shake detecté !</string>
+    <string name="doze_shake_test">Secoue ton terminal maintenant</string>
+    <string name="doze_shake_it">Secousse detecté !</string>
 
-    <string name="doze_shake_acc_threshold_title">Shake seuil</string>
-    <string name="doze_shake_acc_threshold_summary">Configure shake la force nécessaire pour déclencher l\'activation</string>
+    <string name="doze_shake_acc_threshold_title">Seuil de la secousse</string>
+    <string name="doze_shake_acc_threshold_summary">Configurer le seuil de la secousse nécessaire pour déclencher l\'activation</string>
 
     <string name="doze_time_mode_title">Afficher horloge et date</string>
     <string name="doze_time_mode_summary">Force showing time when there is no notification</string>
@@ -223,11 +223,11 @@
     <string name="strong_shake">Fort</string>
 
     <string name="fully_mode">Mode complet</string>
-    <string name="pocket_shake_mode">Pocket et shake</string>
-    <string name="pocket_pulse_mode">Pocket et pulse</string>
-    <string name="pocket_only_mode">Pocket</string>
-    <string name="shake_pulse_mode">Shake et pulse</string>
-    <string name="pulse_only_mode">Pulse (par défaut)</string>
+    <string name="pocket_shake_mode">Poche et secousse</string>
+    <string name="pocket_pulse_mode">Poche et impulsion</string>
+    <string name="pocket_only_mode">Poche</string>
+    <string name="shake_pulse_mode">Secousse et impulsion</string>
+    <string name="pulse_only_mode">Impulsion (par défaut)</string>
 
     <!-- Double Tap Navbar to Sleep -->
     <string name="double_tap_sleep_nav_bar_title">Double-tap pour veille</string>
@@ -331,15 +331,15 @@
     <string name="changelog_crdroid_error">Impossible de charger le changelog</string>
 
     <!-- Heads Up -->
-    <string name="category_heads_up">Notifications heads up</string>
-    <string name="summary_heads_up_enabled">Notifications pop-up est activé</string>
-    <string name="summary_heads_up_disabled">Notifications pop-up est désactivé</string>
+    <string name="category_heads_up">Notifications flottantes</string>
+    <string name="summary_heads_up_enabled">Notifications flottantes est activé</string>
+    <string name="summary_heads_up_disabled">Notifications flottantes est désactivé</string>
     <string name="add_heads_up_package">Ajouter app</string>
-    <string name="add_heads_up_dnd_summary">Ne pas afficher heads up dans ces applications</string>
-    <string name="add_heads_up_blacklist_summary">Ne pas montrer heads-up à partir de ces applications</string>
+    <string name="add_heads_up_dnd_summary">Ne pas afficher les notifications flottantes dans ces applications</string>
+    <string name="add_heads_up_blacklist_summary">Ne pas montrer les notifications flottantes à partir de ces applications</string>
     <string name="heads_up_dnd_title">Ne pas distribuer</string>
     <string name="heads_up_blacklist_title">Liste noire</string>
-    <string name="heads_up_disabled_notice">Pour permettre aux applications d\'afficher des notifications interactifs dans une fenêtre pop-up sur votre écran, activer Heads up</string>
+    <string name="heads_up_disabled_notice">Pour permettre aux applications d\'afficher des notifications interactifs dans une notification flottante sur votre écran, activer Notifications flottantes</string>
     <string name="heads_up_dismiss_on_remove_title">Comportement du swipe</string>
     <string name="heads_up_dismiss_on_remove_summary_enabled">Masquer la notification au lieu de la rejeter</string>
     <string name="heads_up_dismiss_on_remove_summary_disabled">Masquer et rejeter la notification</string>
