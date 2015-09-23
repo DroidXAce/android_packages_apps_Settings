@@ -141,7 +141,7 @@
     <string name="navigation_bar_height_summary">Hauteur de la barre de navigation en mode portrait</string>
     <string name="navigation_bar_height_landscape_title">Hauteur de la barre de navigation en paysage</string>
     <string name="navigation_bar_height_landscape_summary">Hauteur de la barre de navigation en mode paysage.</string>
-    <string name="navigation_bar_width_title">Hauteur de la bare de navigation</string>
+    <string name="navigation_bar_width_title">Hauteur de la barre de navigation</string>
     <string name="navigation_bar_width_summary">Hauteur de la barre de navigation si la barre est long d\'un côté</string>
     <string name="navigation_bar_size_42_dp_default">42 dp (par défaut)</string>
     <string name="navigation_bar_size_36_dp">36 dp</string>
@@ -277,7 +277,7 @@
     <!-- Security & location settings screen, change unlock gesture screen button, on bottom of screen. Once they draw a new gesture and confirm it by drawing it again, they press this button to exit -->
     <string name="lockgesture_continue_button_text">Continuer</string>
     <!-- Security & location settings screen, unlock screen activity title -->
-    <string name="lockgesture_settings_title">Schémar</string>
+    <string name="lockgesture_settings_title">Schéma</string>
     <!-- Security & location settings screen, setting check box title if the unlock pattern MUST be drawn everytime they turn on the screen -->
     <string name="lockgesture_settings_enable_title">Exiger le schéma</string>
     <!-- Security & location settings screen, setting summary for the checkbox "Require pattern" -->
